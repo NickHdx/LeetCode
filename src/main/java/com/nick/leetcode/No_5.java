@@ -3,10 +3,17 @@ package com.nick.leetcode;
 // https://leetcode.com/problems/longest-palindromic-substring/
 public class No_5 {
     public static void main(String[] args) {
+        No_5 obj = new No_5();
         String s = "babad";
-        System.out.println(new No_5().longestPalindrome(s));
+        System.out.println(obj.longestPalindrome(s));
         s = "cbbd";
-        System.out.println(new No_5().longestPalindrome(s));
+        System.out.println(obj.longestPalindrome(s));
+        s = "aaaabaa";
+        System.out.println(obj.longestPalindrome(s));
+        s = "a";
+        System.out.println(obj.longestPalindrome(s));
+        s = "";
+        System.out.println(obj.longestPalindrome(s));
     }
 
     public String longestPalindrome(String s) {
