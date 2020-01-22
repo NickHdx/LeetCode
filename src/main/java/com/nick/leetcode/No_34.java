@@ -1,6 +1,7 @@
 package com.nick.leetcode;
 
 import java.util.Arrays;
+//https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 
 public class No_34 {
     public static void main(String[] args) {
